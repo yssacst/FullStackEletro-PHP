@@ -1,0 +1,136 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    color: gray;
+    margin-top:120px;
+    margin-bottom: 20px;
+}
+#formaDePagamento{
+    color: red;
+    font-weight: bold;
+}
+header{
+    padding-left: 20px;
+}
+main{
+    padding: 20px;
+}
+.menu{
+    background-color: #FF0000;
+    min-height: 80px; 
+    max-height: 160px; 
+    padding: 2px;
+    width: 100%;
+    position: fixed;
+    top:0;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin-left: 4%;
+    justify-content: center;
+}
+.menu a:hover{
+    font-weight: bold;
+}
+.menu img{
+    padding-left: 10px;
+}
+.boxMain{
+    display: flex;
+    padding: 10px;
+}
+.categorias{
+    min-width: 30%;
+    max-width: 30%;
+}
+li{
+    list-style: none;
+    background-color:rgba(255, 0, 0, 0.1);
+    margin:3px;
+    padding: 3px;
+    color:grey;
+    font-weight: bold;
+}
+li:hover{
+    color: rgb(77, 74, 74);
+}
+.produtos{
+    min-width: 250px;
+    margin: 10px;
+    /* text-align: center; */
+    display: block;
+}
+.boxProduto{
+    display: inline-block;
+    width:200px;
+    text-align: center;
+}
+.preco{
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.descricao{
+    font-size: 12px;
+}
+#rodape{
+    text-align: center;
+}
+#copyFooter{
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: red;
+    position: fixed;
+    bottom: 0px;
+    margin-bottom: 0;
+}
+.boxDados{
+    display: flex;
+    justify-content: space-around;
+}
+form{
+    padding: 20px;
+}
+.input{
+    width: 30%;
+}
+.flex{
+    display: flex;
+}
+.divFlex p{
+    margin-left: 5px;
+}
+footer{
+    left: 40%;
+    bottom: 0px;
+}
+li{
+    cursor: pointer;
+}
+/*pg contatos*/
+form{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: rgb(230, 230, 230);
+    max-width: 30%;
+    min-width: 300px;
+    color:rgb(77, 74, 74);
+    text-align: center;
+    border-radius: 5px;
+}
+.input{
+    width: 100%;
+}
+.btnForm{
+    background-color: rgb(77, 74, 74);
+    border-radius: 5px;
+    margin:10px;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    color:white;
+}
